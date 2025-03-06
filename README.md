@@ -1,1 +1,3 @@
 # Real-Time-Logistics-Data-Streaming-Pipeline-with-Kafka-Spark-and-AWS
+
+Developed a real-time data streaming pipeline using Kafka, Spark, Docker, and AWS (S3, Glue, Athena, Redshift). IoT data (vehicle, GPS, weather, emergency) was ingested via Kafka, processed with Spark Structured Streaming, and stored in S3 using Parquet for efficient querying. AWS Glue automated data cataloging, Athena enabled serverless SQL queries, and PowerBI provided data visualization. The system achieved over 1 million events per minute with Docker-based scalability and automated monitoring via AWS Lambda and CloudWatch.
